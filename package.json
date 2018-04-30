@@ -8,14 +8,14 @@
     "vscode": "^1.22.0"
   },
   "activationEvents": [
-    "onCommand:extension.sayHello"
+    "onCommand:extension.runTests"
   ],
   "main": "./extension",
   "contributes": {
     "commands": [
       {
-        "command": "extension.sayHello",
-        "title": "Hello World"
+        "command": "extension.runTests",
+        "title": "Run tests"
       }
     ]
   },
